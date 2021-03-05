@@ -7,7 +7,7 @@ import Liste from './composants/contact/Liste'
 import {Provider} from './context'
 import AddContact from './composants/contact/AddContact'
 import {
-  BrowserRouter as Router,
+  HashRouter,
   Route,
   Switch
 } from 'react-router-dom'
@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <Provider>
-        <Router >
+        <HashRouter >
             <div className="App">
             <Header />
             <div className="container">
@@ -34,7 +34,7 @@ class App extends Component {
             
             </div>
             </div>
-        </Router>
+        </HashRouter>
       </Provider>
   )
 }
