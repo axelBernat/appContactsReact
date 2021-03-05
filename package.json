@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "deploy": "npm run build&&gh-pages -d build",
-  "homepage": "https://axelbernat.github.io/appContactsReact",
+  "homepage": "https://axelbernat.github.io/appContactsReact/liste",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
