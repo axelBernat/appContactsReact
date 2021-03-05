@@ -7,7 +7,7 @@ import Liste from './composants/contact/Liste'
 import {Provider} from './context'
 import AddContact from './composants/contact/AddContact'
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Route,
   Switch
 } from 'react-router-dom'
