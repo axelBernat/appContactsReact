@@ -6,7 +6,11 @@ import Header from './composants/interface/Header'
 import Liste from './composants/contact/Liste'
 import {Provider} from './context'
 import AddContact from './composants/contact/AddContact'
-import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
+import {
+  HashRouter,
+  Route,
+  Switch
+} from 'react-router-dom'
 import Apropos from './composants/pages/Apropos'
 import Erreur from './composants/pages/Erreur'
 class App extends Component {
@@ -15,7 +19,7 @@ class App extends Component {
   render() {
     return (
       <Provider>
-        <Router>
+        <HashRouter >
             <div className="App">
             <Header />
             <div className="container">
@@ -30,7 +34,7 @@ class App extends Component {
             
             </div>
             </div>
-        </Router>
+        </HashRouter>
       </Provider>
   )
 }
